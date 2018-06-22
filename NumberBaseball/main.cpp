@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main() {
-	printf("Hello, World!\n");
+	printf("Welcome to number baseball\n");
 	system("pause");
 	return 0;
 }
