@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NumberBaseball", "NumberBaseball\NumberBaseball.vcxproj", "{843EB777-154A-48A6-8D64-ABCD027C244D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{843EB777-154A-48A6-8D64-ABCD027C244D}.Debug|x64.ActiveCfg = Debug|x64
+		{843EB777-154A-48A6-8D64-ABCD027C244D}.Debug|x64.Build.0 = Debug|x64
+		{843EB777-154A-48A6-8D64-ABCD027C244D}.Debug|x86.ActiveCfg = Debug|Win32
+		{843EB777-154A-48A6-8D64-ABCD027C244D}.Debug|x86.Build.0 = Debug|Win32
+		{843EB777-154A-48A6-8D64-ABCD027C244D}.Release|x64.ActiveCfg = Release|x64
+		{843EB777-154A-48A6-8D64-ABCD027C244D}.Release|x64.Build.0 = Release|x64
+		{843EB777-154A-48A6-8D64-ABCD027C244D}.Release|x86.ActiveCfg = Release|Win32
+		{843EB777-154A-48A6-8D64-ABCD027C244D}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B00033A2-D3D8-49C0-A6F8-7E42C1BBC6B8}
+	EndGlobalSection
+EndGlobal
