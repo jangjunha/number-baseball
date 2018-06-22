@@ -12,7 +12,7 @@ Result getScore(int input, int answer, int numberOfDigits) {
 					res.strike += 1;
 				}
 				else {
-					res.ball -= 1;
+					res.ball += 1;
 				}
 			}
 		}
