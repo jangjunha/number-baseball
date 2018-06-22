@@ -3,6 +3,7 @@
 #include <time.h>
 #include <math.h>
 #include "validation.h"
+#include "score.h"
 
 int main() {
 	int numberOfDigits = 3;
@@ -23,29 +24,15 @@ int main() {
 			continue;
 		}
 
-		int strike = 0, ball = 0;
-		for (int i = 0; i < numberOfDigits; i++) {
-			for (int j = 0; j < numberOfDigits; j++) {
-				int answerDigit = answer / (int)pow(10, i) % 10;
-				int inputDigit = input / (int)pow(10, j) % 10;
-				if (answerDigit == inputDigit) {
-					if (i == j) {
-						strike += 1;
-					}
-					else {
-						ball -= 1;
-					}
-				}
-			}
-		}
+		Result res = getScore(input, answer, numberOfDigits);
 
-		if (strike == 0 && ball == 0) {
+		if (res.strike == 0 && res.ball == 0) {
 			printf("  => OUT!\n");
 		}
 		else {
-			printf("  => %dS %dB\n", strike, ball);
+			printf("  => %dS %dB\n", res.strike, res.ball);
 
-			if (strike == numberOfDigits) {
+			if (res.strike == numberOfDigits) {
 				printf("WINNER WINNER CHICKEN DINNER!\n");
 				break;
 			}
