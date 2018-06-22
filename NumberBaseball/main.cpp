@@ -19,6 +19,9 @@ int main() {
 	while (true) {
 		printf("> Guess number: ");
 		scanf_s("%d", &input);
+		if (input == -1) {
+			return 0;
+		}
 		if (!isValidNumber(input, numberOfDigits)) {
 			printf("Wrong Number.\n");
 			continue;
