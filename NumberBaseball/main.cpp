@@ -36,7 +36,7 @@ int main() {
 			printf("  => %dS %dB\n", res.strike, res.ball);
 
 			if (res.strike == numberOfDigits) {
-				printf("WINNER WINNER CHICKEN DINNER!\n");
+				printf("Game Over!\nWINNER WINNER CHICKEN DINNER!\n");
 				break;
 			}
 		}
