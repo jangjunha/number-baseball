@@ -35,7 +35,9 @@ int main() {
 		else {
 			printf("  => %dS %dB\n", res.strike, res.ball);
 
-			if (res.strike == numberOfDigits) {
+			if (res.strike != numberOfDigits) {
+				printf("Continue Game\n");
+			} else {
 				printf("Game Over!\nWINNER WINNER CHICKEN DINNER!\n");
 				break;
 			}
