@@ -14,7 +14,7 @@ int main() {
 		answer = rand() % (int)pow(10, numberOfDigits);
 	} while (!isValidNumber(answer, numberOfDigits));
 
-	printf("Welcome to number baseball\n");
+	printf("Bulls and Cows !\n");
 
 	while (true) {
 		printf("> Guess number: ");
